@@ -1,8 +1,5 @@
 module.exports = {
-    pages: {
-        index: {
-            entry: 'src/index/main.js',
-            title: 'Custom Title'
-        }
-    }
+    publicPath: process.env.NODE_ENV === 'production'
+    ? '/nicks-portfolio/'
+    : '/'
 }
