@@ -1,5 +1,5 @@
 import { createApp } from 'vue';
-import Index from './index.vue';
+import Error from './components/error.vue';
 import '@/assets/scss/main.scss';
 
-createApp(Index).mount('#index');
+createApp(Error).mount('#index');
